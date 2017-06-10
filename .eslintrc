@@ -1,0 +1,11 @@
+{
+  "extends": "babel",
+  "parserOptions": {
+    "ecmaVersion": 7,
+    "sourceType": "module"
+  },
+  "rules": {
+    "quote-props": [2, "always"],
+    "quotes": [2, "single", "avoid-escape"]
+  }
+}
