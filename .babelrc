@@ -7,7 +7,9 @@
       "useBuiltIns": true,
       "modules": "commonjs",
       "loose": true,
-      "debug": true
+      "debug": false
     }]
-  ]
+  ],
+  "plugins": ["transform-decorators"],
+  "comments": false
 }
