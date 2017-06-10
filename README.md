@@ -1,6 +1,7 @@
 # babel-preset-env 插件
 
-##　配置
+---
+## 配置
 
 - `targets.browsers`: 需要使用  browserslist 的配置方法，但是其设置会被 targets.[chrome, opera, edge, firefox, safari, ie, ios, android, node, electron] 覆盖。
 
@@ -15,5 +16,27 @@
 ```javascript
 
 import "babel-polyfill";
+
+```
+
+## 安装使用
+
+- 安装
+
+```shell
+
+yarn
+
+or
+
+npm install
+
+```
+
+- 启动
+
+```shell
+
+gulp
 
 ```
